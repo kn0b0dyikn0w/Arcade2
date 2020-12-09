@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1d80d2da-2ea0-44eb-aee2-980af806869d",
+            "Value": {
+                "id": "95b9bf9c-0e85-4f7a-a66c-752a7746c23e",
+                "resourcePath": "sprites\\sWallLevel\\sWallLevel.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1ff0e4b5-1860-49da-bb86-46b3c38bfade",
             "Value": {
                 "id": "8abd80b5-4c77-4157-a915-45fd6e60b347",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "324a86ab-fda8-4f4c-8940-426e492b4117",
+            "Value": {
+                "id": "744c434b-7762-47da-b951-454d90a0e6fa",
+                "resourcePath": "sprites\\sBackgroundforrest1\\sBackgroundforrest1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "33a32f82-bb27-492f-9872-4a7cc619fcf7",
             "Value": {
                 "id": "ccd3bf3e-82c4-419c-a7b7-02cf4fa337f9",
@@ -148,6 +164,22 @@
                 "id": "831fa03b-dd9c-4763-9ab0-d8acdbfcdebf",
                 "resourcePath": "sprites\\sWallActivator\\sWallActivator.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4d60baf9-8af9-4e41-8e1f-5b1921c828ce",
+            "Value": {
+                "id": "ab2947d6-ec76-4b97-9ec8-75cd7782ca8e",
+                "resourcePath": "objects\\oWallLevel\\oWallLevel.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4d6a5d14-10cd-4ef9-a071-e43f37171ecb",
+            "Value": {
+                "id": "9fc891a8-6809-4642-8053-9000f61c1629",
+                "resourcePath": "views\\4d6a5d14-10cd-4ef9-a071-e43f37171ecb.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -207,6 +239,14 @@
             }
         },
         {
+            "Key": "79d6cd53-9785-4b28-9b4a-a31b02414e3b",
+            "Value": {
+                "id": "fc11a1d7-db49-4c3c-b7bd-f1a2c1ab69e6",
+                "resourcePath": "rooms\\Test1\\Test1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "85d35646-438f-4d13-b3f8-bec4d9e9913e",
             "Value": {
                 "id": "257e5dc7-19d5-4440-88c5-a4e7420a0f53",
@@ -228,6 +268,14 @@
                 "id": "af891423-e571-44b2-9b16-01fc5ace7033",
                 "resourcePath": "objects\\oEnemyAM\\oEnemyAM.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8d1f68d9-faab-403b-986d-ca5b8f145dcc",
+            "Value": {
+                "id": "534367e7-90c8-47ea-aaaf-60915eb70241",
+                "resourcePath": "sprites\\sBackgroundforrest2\\sBackgroundforrest2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -263,6 +311,14 @@
             }
         },
         {
+            "Key": "b5fcd7c3-bbc4-4777-b197-b2bed2093993",
+            "Value": {
+                "id": "70dcba8a-d342-49e1-b261-62a3253c7ac0",
+                "resourcePath": "scripts\\slidetrans\\slidetrans.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b6dd24d2-557e-459f-a1b4-8cbe531388f0",
             "Value": {
                 "id": "879f4547-6313-439f-b537-b68cb278f96e",
@@ -284,6 +340,14 @@
                 "id": "fc44c808-335f-4e98-98ed-4fe5372b273e",
                 "resourcePath": "shaders\\shWhite\\shWhite.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "bf95aa45-84ed-421f-9b3d-dd58b56411fe",
+            "Value": {
+                "id": "90f4bbe7-2d63-45f8-84dd-0e2992e7b0d1",
+                "resourcePath": "sprites\\sBackgroundforrest\\sBackgroundforrest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -424,7 +488,7 @@
         }
     ],
     "script_order": [
-        
+        "b5fcd7c3-bbc4-4777-b197-b2bed2093993"
     ],
     "tutorial": ""
 }
