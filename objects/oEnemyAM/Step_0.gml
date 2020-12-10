@@ -2,17 +2,36 @@ if (hsp =! 0) image_xscale = sign(hsp);
 
 if (attack = true)
 {
-	var dir=point_direction(x,y,oPlayerA.x,oPlayerA.y);
-	image_angle = point_direction(x,y,oPlayerA.x,oPlayerA.y) +180;
-	if (instance_exists(oPlayerA)) && (cooldown <= 0)
+	if (global.fly = true)
 	{
-		recoil = 4;
-		cooldown = 60;
-		with (instance_create_layer(x,y,"Bullets",oEnemybullet))
+		var dir=point_direction(x,y,oPlayerA.x,oPlayerA.y);
+		image_angle = point_direction(x,y,oPlayerA.x,oPlayerA.y) +180;
+		if (instance_exists(oPlayerA)) && (cooldown <= 0)
 		{
-			speed = 10;
-			direction = other.image_angle + random_range(-186,-174);
-			image_angle = direction;
+			recoil = 4;
+			cooldown = 60;
+			with (instance_create_layer(x,y,"Bullets",oEnemybullet))
+			{
+				speed = 10;
+				direction = other.image_angle + random_range(-186,-174);
+				image_angle = direction;
+			}
+		}
+	}
+	else
+	{
+		var dir=point_direction(x,y,oPlayerG.x,oPlayerG.y);
+		image_angle = point_direction(x,y,oPlayerG.x,oPlayerG.y) +180;
+		if (instance_exists(oPlayerG)) && (cooldown <= 0)
+		{
+			recoil = 4;
+			cooldown = 60;
+			with (instance_create_layer(x,y,"Bullets",oEnemybullet))
+			{
+				speed = 10;
+				direction = other.image_angle + random_range(-186,-174);
+				image_angle = direction;
+			}
 		}
 	}
 

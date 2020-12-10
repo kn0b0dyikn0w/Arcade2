@@ -1,2 +1,2 @@
-cooldown = 0;
+cooldown = 6;
 recoil = 0;

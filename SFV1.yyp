@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01ba8b90-ef2c-4071-81e7-eb8ae2bb027c",
+            "Value": {
+                "id": "b64c27e1-be9d-4e23-a23f-83ced6e4e16b",
+                "resourcePath": "sprites\\sCannon\\sCannon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a71168f-21a5-4543-bdcc-3af0ea47f598",
             "Value": {
                 "id": "a0ba096d-8d18-4d6a-851d-7ceccfdcca06",
@@ -52,6 +60,14 @@
                 "id": "f1bc9fb7-25d4-4a57-b9e3-06030e10678b",
                 "resourcePath": "views\\106ea742-ebcb-4cb6-a2b1-d2c40d61cb78.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "15062e32-5dd2-4b59-8895-7b872d7a0784",
+            "Value": {
+                "id": "6a32078d-4aeb-489d-a595-d89cd0d79311",
+                "resourcePath": "objects\\oBunker\\oBunker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -119,10 +135,26 @@
             }
         },
         {
+            "Key": "311b7805-eb05-4f69-94ba-e51c3123ef52",
+            "Value": {
+                "id": "794a8115-a4b3-42c1-8c63-176ac112843a",
+                "resourcePath": "sprites\\sGroundgunner\\sGroundgunner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "32095edf-ddda-40ff-98d6-58c16f7c4d68",
             "Value": {
                 "id": "c036889f-3065-40fa-8de6-e2607e79bb25",
                 "resourcePath": "objects\\oPlayerA\\oPlayerA.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "322e9850-7404-4e1a-80c6-5da1fd2ac18f",
+            "Value": {
+                "id": "38c09107-77d2-49f0-b5f0-5926e2185b5d",
+                "resourcePath": "objects\\oGroundgun\\oGroundgun.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -148,6 +180,30 @@
                 "id": "565088a7-f386-4067-8d82-e6d63a031230",
                 "resourcePath": "views\\36371e43-95fd-4648-a2dd-41b2672c94ac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "375b3bdb-98a6-415e-90c6-d7123556c467",
+            "Value": {
+                "id": "182760b9-2f27-470b-8040-33ce54b1fb69",
+                "resourcePath": "sprites\\sPlayerG\\sPlayerG.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f420e95-a965-49a4-b3a4-db958d133b48",
+            "Value": {
+                "id": "42852339-fe6d-4c3f-8c9b-c7a333d4c229",
+                "resourcePath": "objects\\oBunkercannon\\oBunkercannon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "43618dd4-5032-4e24-a0b8-55a91de09a3f",
+            "Value": {
+                "id": "1099b70f-3278-4b38-84db-96facedfb7ef",
+                "resourcePath": "objects\\oCannonG\\oCannonG.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -207,10 +263,18 @@
             }
         },
         {
+            "Key": "6ae86fec-aa41-4861-9b5e-98ff2b0de869",
+            "Value": {
+                "id": "c82d4b97-9c6d-43e5-9cf3-46844977a078",
+                "resourcePath": "objects\\oGroundgunner\\oGroundgunner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7076f38f-74ef-487e-821d-6f35229c0b81",
             "Value": {
                 "id": "0a19ca41-775e-45da-aa73-49a2e705c59e",
-                "resourcePath": "sprites\\sCannon\\sCannon.yy",
+                "resourcePath": "sprites\\sGun\\sGun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -235,6 +299,14 @@
             "Value": {
                 "id": "2e0675f9-041b-4040-83df-10fa16a90565",
                 "resourcePath": "sprites\\sBackgroundcloud\\sBackgroundcloud.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "78360eeb-f74a-450c-8c72-a40fec20d194",
+            "Value": {
+                "id": "608694e9-8739-4ff6-9955-0dea8b284ae4",
+                "resourcePath": "sprites\\sBunkercannon\\sBunkercannon.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -351,6 +423,22 @@
             }
         },
         {
+            "Key": "c34fe5e3-86b9-424f-80f0-17785614ab2a",
+            "Value": {
+                "id": "28f296ad-22f1-4a40-919b-1259d4f0dbdb",
+                "resourcePath": "objects\\oPlayershell\\oPlayershell.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c65ffddb-62ab-4abb-ae55-b00802cf5f2c",
+            "Value": {
+                "id": "dd1f70e0-8c97-42dc-8c78-d1ee9a0697ae",
+                "resourcePath": "sprites\\sGunnergun\\sGunnergun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c88b3916-793b-42cd-a745-af2a49d86998",
             "Value": {
                 "id": "4d655a61-5a74-457a-9604-d0988ed8a02c",
@@ -375,6 +463,14 @@
             }
         },
         {
+            "Key": "d035f3c3-5462-427f-8adc-ec653309ee00",
+            "Value": {
+                "id": "c8d8d457-b047-41a6-8ed4-2a8c2587cb1f",
+                "resourcePath": "sprites\\sPlayershell\\sPlayershell.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d453d09c-e0f3-42bd-8842-269ca43d8c39",
             "Value": {
                 "id": "f07bc090-ebbf-451a-965b-3a97127963d7",
@@ -396,6 +492,14 @@
                 "id": "1a5021ee-4fad-4625-9eb1-2c7a922860e7",
                 "resourcePath": "objects\\oGunA\\oGunA.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "da3bc012-1f84-47b3-80cf-4b8f16e6c91e",
+            "Value": {
+                "id": "0c4dccee-4cee-4128-8b65-446959f95518",
+                "resourcePath": "sprites\\sBunker\\sBunker.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -476,6 +580,14 @@
                 "id": "c464bad6-2abc-4e3b-a50a-a6fe0e63a6da",
                 "resourcePath": "views\\f76c1337-b454-40da-927d-2567eb125c11.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fb3e53ac-e725-407e-818d-6aefca50934a",
+            "Value": {
+                "id": "f32fcacb-5059-460b-8913-58bc616be5ac",
+                "resourcePath": "objects\\oPlayerG\\oPlayerG.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -1,10 +1,6 @@
 XAxis = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 YAxis = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-	
-if (keyboard_check(ord("F")))
-{
 
-}
 
 if (hascontrol)
 {
