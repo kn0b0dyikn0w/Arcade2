@@ -4,5 +4,4 @@ Speed=6;
 Ehealth = 150;
 flash = 0;
 cooldown = 0;
-recoil = 0;
 attack = false;

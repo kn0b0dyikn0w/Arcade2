@@ -8,7 +8,6 @@ if (attack = true)
 		image_angle = point_direction(x,y,oPlayerA.x,oPlayerA.y) +180;
 		if (instance_exists(oPlayerA)) && (cooldown <= 0)
 		{
-			recoil = 4;
 			cooldown = 5;
 			with (instance_create_layer(x,y,"Bullets",oEnemybullet))
 			{
@@ -24,7 +23,6 @@ if (attack = true)
 		image_angle = point_direction(x,y,oPlayerG.x,oPlayerG.y) +180;
 		if (instance_exists(oPlayerG)) && (cooldown <= 0)
 		{
-			recoil = 4;
 			cooldown = 5;
 			with (instance_create_layer(x,y,"Bullets",oEnemybullet))
 			{
@@ -39,7 +37,6 @@ if (attack = true)
 	vsp=lengthdir_y(Speed,dir);
 
 	cooldown = cooldown - 1;
-	recoil = max(0,recoil - 1);
 }
 
 else

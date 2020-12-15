@@ -19,7 +19,11 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
-		vsp = -20;
+		vsp = -15;
+}
+if (place_meeting(x,y+1,oWallMove)) && (key_jump)
+{
+		vsp = -10;
 }
 
 if (place_meeting(x+hsp,y,oWall))
@@ -30,12 +34,29 @@ if (place_meeting(x+hsp,y,oWall))
 	}
 	hsp = 0;
 }
+if (place_meeting(x+hsp,y,oWallMove))
+{
+	while (!place_meeting(x+sign(hsp),y,oWallMove))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = -4;
+}
+
 
 x = x + hsp;
 
 if (place_meeting(x,y+vsp,oWall))
 {
 	while (!place_meeting(x,y+sign(vsp),oWall))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+if (place_meeting(x,y+vsp,oWallMove))
+{
+	while (!place_meeting(x,y+sign(vsp),oWallMove))
 	{
 		y = y + sign(vsp);
 	}

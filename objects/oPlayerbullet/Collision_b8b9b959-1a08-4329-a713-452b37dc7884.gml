@@ -1,6 +1,6 @@
 with (other)
 {
-	Ehealth -= 20;
+	Ehealth -= oPlayerbullet.dmg;
 	flash = 3;
 }
 

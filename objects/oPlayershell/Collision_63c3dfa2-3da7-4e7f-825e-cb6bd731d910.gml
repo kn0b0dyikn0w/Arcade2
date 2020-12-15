@@ -1,7 +1,8 @@
 with (other)
 {
-	Ehealth -= 60;
+	Ehealth -= oPlayershell.dmg;
 	flash = 3;
+	hitfrom = other.direction;
 }
 
 instance_destroy();

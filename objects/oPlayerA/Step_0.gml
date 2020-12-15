@@ -24,10 +24,6 @@ if (place_meeting(x+XAxis, y, oWall))
 	{
 		x += sign(XAxis);
 	}
-	/*while (!place_meeting(x+sign(XAxis), y, oWallActivator))
-	{
-		x += sign(XAxis);
-	}*/
 	XAxis = 0;
 }
 
@@ -39,10 +35,7 @@ if (place_meeting(x, y+YAxis, oWall))
 	{
 		y += sign(YAxis);
 	}
-	/*while (!place_meeting(x, y+sign(YAxis), oWallActivator))
-	{
-		y += sign(YAxis);
-	}*/
+
 	YAxis = 0;
 }
 

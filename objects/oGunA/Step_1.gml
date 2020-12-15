@@ -1,5 +1,5 @@
-x = oPlayerA.x-15;
-y = oPlayerA.y+45;
+x = oPlayerA.x+95;
+y = oPlayerA.y+15;
 
 image_angle = point_direction(x,y,x,y);
 
@@ -11,7 +11,7 @@ if (mouse_check_button(mb_left)) && (cooldown < 0)
 	cooldown = 6;
 	with (instance_create_layer(x,y,"Bullets",oPlayerbullet))
 	{
-		speed = 25;
+		speed = 40;
 		direction = other.image_angle + random_range(-3,3);
 		image_angle = direction;
 	}
