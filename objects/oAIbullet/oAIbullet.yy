@@ -2,7 +2,7 @@
     "id": "faf4aabb-75a7-465b-b1bf-d942758ed92e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oPlayerbullet1",
+    "name": "oAIbullet",
     "eventList": [
         {
             "id": "e0df08ac-8c25-49aa-87a6-ffa89679e8a0",
@@ -113,6 +113,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8663a1a5-5694-4540-9b51-c7e241607268",
+    "spriteId": "488a0dee-72ff-48fc-8ec5-0b2f2a8b9fec",
     "visible": true
 }

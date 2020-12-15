@@ -63,7 +63,7 @@ if (place_meeting(x+hsp, y, oPlayerG))
 	hsp = 0;
 }
 
-x += hsp;
+
 
 if (place_meeting(x, y+vsp, oEnemyAM))
 {
@@ -94,7 +94,7 @@ if (place_meeting(x, y+vsp, oPlayerG))
 }
 
 
-y += vsp;
+
 
 }
 
