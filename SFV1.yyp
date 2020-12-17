@@ -47,10 +47,26 @@
             }
         },
         {
+            "Key": "086a1401-97ac-4865-9d5f-73b752e1ffcf",
+            "Value": {
+                "id": "05f760bf-cb63-4bea-bdb3-719c23ba89be",
+                "resourcePath": "sprites\\sMelee\\sMelee.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a71168f-21a5-4543-bdcc-3af0ea47f598",
             "Value": {
                 "id": "a0ba096d-8d18-4d6a-851d-7ceccfdcca06",
                 "resourcePath": "sprites\\sPlayerrocket\\sPlayerrocket.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0cbb5318-b519-434f-b4c7-17efc3b037e8",
+            "Value": {
+                "id": "4ef258b9-e41e-4fa0-83e3-cf49c50f94dd",
+                "resourcePath": "sprites\\sMeleeAttack\\sMeleeAttack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -132,6 +148,14 @@
                 "id": "7b3a65c8-5788-43ae-b445-914ba2f8458d",
                 "resourcePath": "views\\2b76373e-de85-415a-a1ba-322a4e93bc56.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2d5801c7-e184-4eed-92fd-27da1e7b1741",
+            "Value": {
+                "id": "c8a2dfbe-8330-4057-b699-d1d2e9adb849",
+                "resourcePath": "scripts\\playerstate_attack_combo\\playerstate_attack_combo.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -263,6 +287,14 @@
             }
         },
         {
+            "Key": "4b67badd-9b3f-4c61-8fd2-f8088f7b94c1",
+            "Value": {
+                "id": "eea18561-088d-42a3-b800-1a503398a880",
+                "resourcePath": "objects\\oMeleeG\\oMeleeG.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4bcda3ef-0475-4512-b2a0-987b5684a1a2",
             "Value": {
                 "id": "831fa03b-dd9c-4763-9ab0-d8acdbfcdebf",
@@ -292,6 +324,14 @@
                 "id": "c19817c8-f359-4f3a-a3f9-2a80632099b7",
                 "resourcePath": "rooms\\Test\\Test.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5764363f-720d-4816-9e2e-4088ead1021c",
+            "Value": {
+                "id": "3994ab30-af09-4d80-af2e-3259a3eff83c",
+                "resourcePath": "scripts\\EnemyHit\\EnemyHit.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -679,6 +719,22 @@
             }
         },
         {
+            "Key": "e8157e60-cfca-4975-a380-b7a42322beb4",
+            "Value": {
+                "id": "2c3b6fbc-13f1-4c6f-a441-e7c5d26827f5",
+                "resourcePath": "scripts\\playerstate_free\\playerstate_free.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ed7b4169-be9d-479b-a085-1f41c7c335e8",
+            "Value": {
+                "id": "4fa49cc4-84b4-4b2e-ad0a-0535a2a2b3cd",
+                "resourcePath": "sprites\\sMeleeAttackHB\\sMeleeAttackHB.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f071cf66-fa65-40c8-a067-6f9eda8dfdda",
             "Value": {
                 "id": "0059c145-9968-4fc3-a476-c374810e845c",
@@ -725,10 +781,22 @@
                 "resourcePath": "views\\fb71d921-8b6f-4d51-81ca-49b0a2b51960.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fcd4bf75-a9d1-4355-918f-cf265c50561b",
+            "Value": {
+                "id": "5d8308ba-b707-4eb6-a8a1-2de05c08231b",
+                "resourcePath": "scripts\\playerstate_attack_slash\\playerstate_attack_slash.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        "b5fcd7c3-bbc4-4777-b197-b2bed2093993"
+        "b5fcd7c3-bbc4-4777-b197-b2bed2093993",
+        "e8157e60-cfca-4975-a380-b7a42322beb4",
+        "fcd4bf75-a9d1-4355-918f-cf265c50561b",
+        "2d5801c7-e184-4eed-92fd-27da1e7b1741",
+        "5764363f-720d-4816-9e2e-4088ead1021c"
     ],
     "tutorial": ""
 }

@@ -64,3 +64,11 @@ if (place_meeting(x,y+vsp,oWallMove))
 }
 
 y = y + vsp;
+
+
+/*switch (state)
+{
+	case PLAYERSTATE.FREE: playerstate_free(); break;
+	case PLAYERSTATE.ATTACK_SLASH: playerstate_attack_slash(); break;
+	case PLAYERSTATE.ATTACK_COMBO: playerstate_attack_combo(); break;
+}
